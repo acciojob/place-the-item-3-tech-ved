@@ -1,15 +1,5 @@
-#holder {
+.holder {
     display: flex;
-    flex-wrap: wrap;         /* Prevent squashing — extra items go to next row */
-    justify-content: space-evenly; /* Even spacing in row */
-}
-
-.item {
-    width: 150px;            /* Optional – items same width so they don’t shrink */
-    height: 150px;
-    background-color: lightblue;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;            /* Extra items next row */
+    justify-content: space-evenly; /* All items evenly spaced */
 }
